@@ -1,7 +1,7 @@
 // Google AdSense 설정 파일
 export const ADSENSE_CONFIG = {
-  // 실제 사용시에는 본인의 AdSense Publisher ID로 교체하세요
-  PUBLISHER_ID: 'ca-pub-YOUR_PUBLISHER_ID',
+  // 실제 AdSense Publisher ID
+  PUBLISHER_ID: 'ca-pub-7399148050985869',
   
   // 광고 슬롯 ID들 (AdSense 계정에서 생성한 광고 단위 ID로 교체)
   AD_SLOTS: {
