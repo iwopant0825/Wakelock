@@ -269,7 +269,7 @@ export default function RootLayout({
         {/* Google Search Console 인증 (실제 사용 시 교체) */}
         <meta
           name="google-site-verification"
-          content="YOUR_GOOGLE_VERIFICATION_CODE"
+          content="1_KO97nsvdAYWtB6GbcNJ3wkRBxaV9HYU_UcIgVVRzk"
         />
         {/* Naver Search Advisor 인증 (실제 사용 시 교체) */}
         <meta
