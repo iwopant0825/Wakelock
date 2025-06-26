@@ -1,0 +1,32 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="screen192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f7fafc"/>
+    </linearGradient>
+    <radialGradient id="glow192" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#48bb78;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#48bb78;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  
+  <circle cx="96" cy="96" r="86" fill="url(#bg192)"/>
+  <rect x="36" y="58" width="120" height="72" rx="6" fill="url(#screen192)" stroke="#2d3748" stroke-width="2"/>
+  <rect x="42" y="64" width="108" height="60" rx="3" fill="#1a202c"/>
+  
+  <circle cx="96" cy="94" r="20" fill="url(#glow192)"/>
+  <circle cx="96" cy="94" r="12" fill="#48bb78"/>
+  <circle cx="96" cy="94" r="6" fill="#68d391"/>
+  
+  <rect x="92" y="130" width="8" height="16" fill="#4a5568"/>
+  <rect x="76" y="142" width="40" height="6" rx="3" fill="#4a5568"/>
+  
+  <circle cx="140" cy="76" r="3" fill="#ffffff"/>
+  <circle cx="140" cy="76" r="2" fill="#48bb78"/>
+  
+  <text x="96" y="162" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10" font-weight="bold">AWAKE</text>
+</svg>

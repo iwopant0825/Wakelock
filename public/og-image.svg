@@ -1,0 +1,74 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- OpenGraph용 배경 그라데이션 -->
+  <defs>
+    <linearGradient id="og-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="og-screen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f7fafc"/>
+    </linearGradient>
+    <radialGradient id="og-glow" cx="50%" cy="50%" r="30%">
+      <stop offset="0%" style="stop-color:#48bb78;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#48bb78;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="og-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="8" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 배경 -->
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  
+  <!-- 장식적 원들 -->
+  <circle cx="150" cy="150" r="80" fill="#ffffff" opacity="0.1"/>
+  <circle cx="1050" cy="480" r="100" fill="#ffffff" opacity="0.1"/>
+  <circle cx="100" cy="500" r="60" fill="#ffffff" opacity="0.15"/>
+  <circle cx="1100" cy="120" r="90" fill="#ffffff" opacity="0.1"/>
+  
+  <!-- 메인 모니터 -->
+  <rect x="300" y="180" width="400" height="250" rx="20" fill="url(#og-screen)" stroke="#2d3748" stroke-width="6" filter="url(#og-shadow)"/>
+  
+  <!-- 화면 내부 -->
+  <rect x="320" y="200" width="360" height="190" rx="8" fill="#1a202c"/>
+  
+  <!-- 화면 ON 상태 - 큰 빛나는 효과 -->
+  <circle cx="500" cy="295" r="80" fill="url(#og-glow)"/>
+  <circle cx="500" cy="295" r="50" fill="#48bb78" opacity="0.9"/>
+  <circle cx="500" cy="295" r="30" fill="#68d391"/>
+  <circle cx="500" cy="295" r="15" fill="#9ae6b4"/>
+  
+  <!-- 모니터 스탠드 -->
+  <rect x="485" y="430" width="30" height="60" fill="#4a5568" filter="url(#og-shadow)"/>
+  <rect x="420" y="480" width="160" height="20" rx="10" fill="#4a5568" filter="url(#og-shadow)"/>
+  
+  <!-- 전원 LED -->
+  <circle cx="650" cy="220" r="8" fill="#ffffff" opacity="0.9"/>
+  <circle cx="650" cy="220" r="5" fill="#48bb78"/>
+  
+  <!-- 영어 우선 타이틀 텍스트 -->
+  <text x="600" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="52" font-weight="bold">Screen Wake Lock Tool</text>
+  <text x="600" y="165" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" opacity="0.9">Keep Your Screen Awake Online - FREE</text>
+  
+  <!-- 하단 설명 텍스트 -->
+  <text x="600" y="540" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="600">Perfect for Videos • Online Classes • Presentations</text>
+  <text x="600" y="570" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" opacity="0.8">Works on Chrome, Safari, Firefox, Edge - No Download Required</text>
+  
+  <!-- FREE 뱃지 -->
+  <rect x="50" y="50" width="100" height="40" rx="20" fill="#48bb78" opacity="0.9"/>
+  <text x="100" y="75" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">FREE</text>
+  
+  <!-- 장식적 전파 신호들 -->
+  <g transform="translate(200, 280)" opacity="0.6">
+    <path d="M0 30 Q15 10 30 30" stroke="#68d391" stroke-width="4" fill="none"/>
+    <path d="M5 30 Q15 20 25 30" stroke="#68d391" stroke-width="4" fill="none"/>
+    <path d="M10 30 Q15 25 20 30" stroke="#68d391" stroke-width="4" fill="none"/>
+  </g>
+  
+  <g transform="translate(770, 280) scale(-1, 1)" opacity="0.6">
+    <path d="M0 30 Q15 10 30 30" stroke="#68d391" stroke-width="4" fill="none"/>
+    <path d="M5 30 Q15 20 25 30" stroke="#68d391" stroke-width="4" fill="none"/>
+    <path d="M10 30 Q15 25 20 30" stroke="#68d391" stroke-width="4" fill="none"/>
+  </g>
+</svg>

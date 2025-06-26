@@ -1,0 +1,61 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 그라데이션 정의 -->
+  <defs>
+    <linearGradient id="bg-gradient-large" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screen-gradient-large" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f7fafc;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#48bb78;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#48bb78;stop-opacity:0" />
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- 배경 원형 -->
+  <circle cx="100" cy="100" r="90" fill="url(#bg-gradient-large)" filter="url(#shadow)"/>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#4c51bf" stroke-width="2"/>
+  
+  <!-- 모니터 외곽 -->
+  <rect x="40" y="60" width="120" height="75" rx="8" fill="url(#screen-gradient-large)" stroke="#2d3748" stroke-width="3" filter="url(#shadow)"/>
+  
+  <!-- 화면 내부 -->
+  <rect x="50" y="70" width="100" height="55" rx="3" fill="#1a202c"/>
+  
+  <!-- 화면 ON 상태 - 빛나는 효과 -->
+  <circle cx="100" cy="97.5" r="25" fill="url(#glow)"/>
+  <circle cx="100" cy="97.5" r="15" fill="#48bb78" opacity="0.9"/>
+  <circle cx="100" cy="97.5" r="8" fill="#68d391"/>
+  <circle cx="100" cy="97.5" r="4" fill="#9ae6b4"/>
+  
+  <!-- 모니터 스탠드 -->
+  <rect x="95" y="135" width="10" height="20" fill="#4a5568" filter="url(#shadow)"/>
+  <rect x="75" y="150" width="50" height="8" rx="4" fill="#4a5568" filter="url(#shadow)"/>
+  
+  <!-- 전원 LED -->
+  <circle cx="145" cy="80" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="145" cy="80" r="2.5" fill="#48bb78"/>
+  
+  <!-- 깨어있음 표시 텍스트 -->
+  <text x="100" y="170" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold" opacity="0.9">AWAKE</text>
+  
+  <!-- 장식적 요소 - 전파/신호 표시 -->
+  <g transform="translate(60, 90)" opacity="0.6">
+    <path d="M0 10 Q5 5 10 10" stroke="#68d391" stroke-width="2" fill="none"/>
+    <path d="M2 10 Q5 7 8 10" stroke="#68d391" stroke-width="2" fill="none"/>
+    <path d="M4 10 Q5 9 6 10" stroke="#68d391" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- 오른쪽 전파 표시 -->
+  <g transform="translate(130, 90) scale(-1, 1)" opacity="0.6">
+    <path d="M0 10 Q5 5 10 10" stroke="#68d391" stroke-width="2" fill="none"/>
+    <path d="M2 10 Q5 7 8 10" stroke="#68d391" stroke-width="2" fill="none"/>
+    <path d="M4 10 Q5 9 6 10" stroke="#68d391" stroke-width="2" fill="none"/>
+  </g>
+</svg>
